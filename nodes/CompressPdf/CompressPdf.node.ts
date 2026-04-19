@@ -11,7 +11,7 @@ export class CompressPdf implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Compress PDF',
 		name: 'compressPdf',
-		icon: { light: 'file:../../icons/icon.svg', dark: 'file:../../icons/icon.svg' },
+		icon: { light: 'file:../../icons/light.svg', dark: 'file:../../icons/dark.svg' },
 		group: ['transform'],
 		version: 1,
 		description: 'Reduce PDF file size without losing quality using PDF API Hub',
