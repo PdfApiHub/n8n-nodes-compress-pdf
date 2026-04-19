@@ -1,37 +1,43 @@
 # n8n-nodes-compress-pdf
 
-> Reduce PDF file size without losing quality using PDF API Hub
+[![NPM Version](https://img.shields.io/npm/v/n8n-nodes-compress-pdf.svg)](https://www.npmjs.com/package/n8n-nodes-compress-pdf)
+[![License](https://img.shields.io/npm/l/n8n-nodes-compress-pdf.svg)](LICENSE.md)
 
-This is an [n8n](https://n8n.io/) community node. It lets you use **[PDF API Hub](https://pdfapihub.com)** in your n8n workflows.
+> Reduce PDF file size without losing quality — 4 compression levels from subtle to maximum.
 
-## Prerequisites
+This is an [n8n](https://n8n.io/) community node powered by **[PDF API Hub](https://pdfapihub.com)**.
 
-- **n8n** v1.0.0 or later
-- A **PDF API Hub** API key — [get one free](https://pdfapihub.com)
+---
 
-## Installation
+## 🚀 Install
 
-1. Go to **Settings → Community Nodes**
-2. Select **Install a community node**
-3. Enter `n8n-nodes-compress-pdf`
-4. Agree to the risks and click **Install**
+1. Go to **Settings → Community Nodes** in n8n
+2. Enter `n8n-nodes-compress-pdf`
+3. Click **Install**
 
-## Operations
+## 🔑 Setup
 
-- **Compress PDF** — Reduce PDF file size without losing quality using PDF API Hub
+1. Sign up at [pdfapihub.com](https://pdfapihub.com) → copy your API key → add to n8n credentials.
 
-## Credentials
+---
 
-You need a PDF API Hub API key to use this node:
+## ✨ Features
 
-1. Sign up at [pdfapihub.com](https://pdfapihub.com)
-2. Copy your API key from the dashboard
-3. In n8n, create new **PDF API Hub API** credentials and paste your key
+| Parameter | Description |
+|-----------|-------------|
+| **Input Type** | URL or Binary file |
+| **Compression** | **Low** (minimal, best quality), **Medium**, **High**, **Max** (smallest file) |
+| **Output Format** | Binary File, URL, or Base64 |
+| **Output Filename** | Custom filename |
 
-## Resources
+---
 
-- [PDF API Hub Documentation](https://pdfapihub.com/docs)
-- [n8n Community Nodes Documentation](https://docs.n8n.io/integrations/community-nodes/)
+## 💡 Use Cases
+
+- **Email attachments** — shrink PDFs to fit email size limits
+- **Storage optimization** — reduce archive storage costs
+- **Web uploads** — optimize PDFs for faster web downloads
+- **Batch compression** — process hundreds of files in a workflow
 
 ## License
 
